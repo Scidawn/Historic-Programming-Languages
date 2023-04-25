@@ -1,5 +1,7 @@
 # Dashboard
 
+Konzept, Ausarbeitung und Präsentation der historischen Programmiersprachen. Dargelegt anhand von Algol, Lisp und Fortran.
+
 ## Notes
 
 programming languages:
