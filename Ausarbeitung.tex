@@ -63,7 +63,6 @@ Fortran supports the following operators:\\
 \item Arithmetic Operators
 \item Relational Operators
 \item Logical Operators
-\item Bitwise Operators
 \end{itemize}
 
 \subsubsubsection{Arithmetic Operators}
@@ -95,15 +94,6 @@ Fortran supports the following operators:\\
 \item .neqv. Logical non-equivalence
 \end{itemize}
 
-\subsubsubsection{Bitwise Operators} % needs verification
-\begin{itemize}
-\item .not. Bitwise NOT
-\item .and. Bitwise AND
-\item .or. Bitwise OR
-\item .eqv. Bitwise equivalence
-\item .neqv. Bitwise non-equivalence
-\end{itemize}
-
 \subsubsection{Control Structures}
 Control structures in Fortran are similar to other programming languages, such as C or Java. They make it possible to control the flow of a program.\\
 Supported control structures are if-then, if-then-else, do, do-while, do-until, select-case and cycle.\\
@@ -111,9 +101,92 @@ Supported control structures are if-then, if-then-else, do, do-while, do-until, 
 
 
 \subsubsection{Functions and Subroutines}
-Functions and subroutines are used to divide a program into smaller parts, which makes it easier to read and maintain, hence the name "structured programming".
+Functions and subroutines are used to divide a program into smaller parts, which makes it easier to read and maintain, hence the name "structured programming" as one of Fortrans paradigms.\\
 Functions and subroutines are similar, but they have some differences, such as that functions can return a value, while subroutines cannot. This is because subroutines are used to perform a task, while functions are used to calculate a value.\\
+%Todo example
 
+\subsubsection{Arrays}
+Arrays are used to store multiple values of the same type. The main difference between arrays in Fortran and other programming languages is that Fortran arrays start at 1, while most other programming languages start at 0.[9]\\
+An array in Fortran can have up to 7 dimensions.\\
+The advantage of arrays is that they make it possible to store multiple values in one variable, which makes it easier to access them.\\
+%Todo example
+
+\subsubsection{Strings}
+Strings are used to store text. They are declared with the character type and can be initialized with a string literal.\\
+Example:\\
+character :: name = "John"\\
+Strings can be concatenated with the // operator.\\
+The length of a string can be determined with the len() function like this:\\
+len(name)\\
+One can also access a single character of a string with the following syntax:\\
+name(1:1)\\
+This would return the first character of the string.\\
+The length of a string can be limited by adding a number after the type declaration like this:\\
+character(10) :: name\\
+This would limit the length of the string to 10 characters.\\
+%Todo Delete garbage
+
+\subsubsection{Input and Output} %Todo verify this
+Input and output in Fortran is done with the read() and write() functions.\\
+The read() function is used to read input from the user and the write() function is used to write output to the console.\\
+Example:\\
+read(*,*) name\\
+write(*,*) "Hello ", name\\
+The asterisk (*) is used to indicate that the input or output is done to the console.\\
+The first asterisk is used to indicate the format of the input or output.\\
+The second asterisk is used to indicate the type of the input or output.\\
+An example where the type is specified would be:\\
+read(*,*) integer :: number\\
+This would read an integer from the console, such as the amount of times a loop should be executed.\\
+
+\subsubsection{File Handling}%Todo verify this
+File handling in Fortran is done with the open(), close(), read() and write() functions.\\
+The names of the functions are self-explanatory.\\
+Example:\\
+open(unit=1, file="file.txt", status="old")\\
+close(unit=1)\\
+read(1,*) name\\
+write(1,*) "Hello ", name\\
+The unit parameter is used to specify the file to be used.\\
+The file parameter is used to specify the name of the file.\\
+The status parameter is used to specify the status of the file (old, new, scratch, replace).\\
+The asterisk (*) is used to indicate the format of the input or output.\\
+The second asterisk is used to indicate the type of the input or output.\\
+
+\subsubsection{Object-Oriented Programming}
+Fortran is not an object-oriented programming language, but it is possible to use object-oriented programming in Fortran.\\
+This is done by using modules.\\
+Modules are used to group variables, functions and subroutines together.\\
+Example:\\
+module myModule\\
+integer :: number\\
+contains\\
+subroutine mySubroutine()\\
+write(*,*) "Hello World"\\
+end subroutine mySubroutine\\
+end module myModule\\
+This module can then be used in another program like this:\\
+program myProgram\\
+use myModule\\
+call mySubroutine()\\
+end program myProgram\\
+This would print "Hello World" to the console.\\
+%Todo verify this
+
+\subsubsection{Parallel Programming}
+Parallel programming in Fortran is done with the OpenMP API.\\
+OpenMP is a library that makes it possible to write parallel programs in Fortran.\\
+Example:\\
+program myProgram\\
+use omp\_lib\\
+integer :: i\\
+!\$OMP PARALLEL DO\\
+do i = 1, 10\\
+write(*,*) i\\
+end do\\
+!\$OMP END PARALLEL DO\\
+end program myProgram\\
+This program would print the numbers 1 to 10 to the console.\\
 
 
 \section{References}
@@ -125,5 +198,7 @@ Functions and subroutines are similar, but they have some differences, such as t
 [6] https://ourcodingclub.github.io/tutorials/fortran-intro/#:~:text=Fortran%20is%20a%20compiled%20language,run%20it%20on%20a%20computer.
 [7]
 [8] https://stackoverflow.com/questions/34622995/how-to-combine-two-strings-in-fortran
+[9] https://docs.oracle.com/cd/E19957-01/805-4940/z400091044d0/index.html
+[10] https://www.cism.ucl.ac.be/Services/Formations/fortran/2016/fortranCISM.pdf
 
 \end{document}
