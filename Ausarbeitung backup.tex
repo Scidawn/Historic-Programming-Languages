@@ -1,0 +1,112 @@
+% Header
+\documentclass[12pt,a4paper,oneside,english]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[a4paper, left=3cm, right=4cm, top=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{bibgerm}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{dingbat}
+\usepackage{pdfpages}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\newcommand{\leadingzero}[1]{\ifnum #1<10 0\the#1\else\the#1\fi}
+\newcommand{\datumVonHeute}{\leadingzero{\day}.\leadingzero{\month}.\the\year}
+
+\hypersetup{
+colorlinks=true,
+urlcolor=blue,
+}
+
+% HIER EIGENE DATEN EINGEBEN!
+
+\newcommand{\haThema}{Historic Programming Languages}
+\newcommand{\haAutor}{Sandro Lobbene\\Toygun Ejder}
+%\newcommand{\haDeckblattTextEins}{Examensarbeit für das zweite Staatsexamen\\ im Fach Berufliche Informatik für das Lehramt an berufsbildenden Schulen}
+%\newcommand{\haDeckblattTextZwei}{Lehrkraft im Vorbereitungsdienst im 2. Semester}
+\newcommand{\haSchule}{RWTH Aachen}
+\newcommand{\haSchuleAdresse}{Templergraben 55}
+\newcommand{\haSchulePLZ}{50226}
+\newcommand{\haSchuleOrt}{Aachen}
+\newcommand{\haGutachter}{Jürgen Giesl}
+
+
+\title{\haThema}
+\author{\haAutor}
+\date{\today}
+
+\begin{document}
+
+% DECKBLATT
+\begin{titlepage}
+\begin{center}
+{\LARGE\bfseries \haThema \par}
+\vfill
+\begin{figure}[hbtp]
+\begin{center}
+%\includegraphics[width=10cm]{img/rgb.jpg}
+%\label{imgDeckbild}
+\end{center}
+\end{figure}
+
+Erstellt von:\\ {\bfseries \haAutor}\\ 
+ 
+\par
+\vspace{1cm}
+{\haSchule \\ \haSchuleAdresse \\ \haSchulePLZ~\haSchuleOrt \par}
+\vspace{1cm}
+Gutachter:\\ {\bfseries \haGutachter}
+\vfill
+\end{center}
+%{\haAutorOrt,~\datumVonHeute\par}
+\end{titlepage}
+\thispagestyle{empty}
+\newpage
+
+% Seitenzahl auf 1 setzen
+\setcounter{page}{1}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+% HIER KOMMT DER EIGENTLICHE INHALT DER HAUSARBEIT!
+
+\section{Introduction}
+
+
+\newpage
+\section{Allgemeine Funktion eines CO2-Melders}
+\subsection {Problemstellung}
+
+\subsection{CO2-Verbrauch bei Menschen}
+\subsection{Messung der CO2-Werte}
+\label{lblMessungderWerte}
+
+\newpage
+\section{Aufbau des Melders}
+
+\newpage
+\section{Funktionsweise des Sensors}
+\label{lblFunktionsweisesensor}
+\subsection{Produktdetails}
+\paragraph{Funktion:}
+\section{Zusammenfassung}
+\newpage
+
+\section{Literaturverzeichnis}
+\subsection{Bücher}
+
+[NOR88] Norman, Don: The Design of everyday things, 1988
+
+[UBA08] Umweltbundesamt: Gesundheitliche Bewertung von Kohlendioxid in der Innenraumluft, 2008
+\subsection{Internetquellen}
+
+[ACS] \url{https://pubs.acs.org/doi/full/10.1021/acs.est.9b04959} (Stand: \today) 
