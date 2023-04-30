@@ -13,7 +13,7 @@
 
 %Gegebenenfalls koennen Titel, Author und Datum festgelegt werden
 \title{Historic Programming Languages}
-\author{Sandro Lobbene\\Toygun Ejder\\}
+\author{Sandro Lobbene\\Toygun Ejder\\Tufan Alacapunar}
 \date{\today}
 
 \begin{document}
@@ -26,6 +26,94 @@ Fortran is a procedural programming language, which influenced many other progra
 It is known for high-performance computing and is used for programs that benchmark and rank the world's fastest supercomputers.[2][4]\\
 Fortran consists of numerous versions, which have added support for structured programming (FORTRAN 77), array programming, modular programming and generic programming (Fortran 90), high performance (Fortran 95), object-oriented programming since 2003 and concurrent programming in 2008.[1] Influenced languages by Fortran include BASIC, PL/I, and C, as well as Algol and Java.\\
 Fortran is still used today for programming scientific and engineering applications. It is the primary language for some of the most intensive supercomputing tasks, such as weather forecasting, nuclear security and medicine. [3]\\
+FORTRAN is short for "Formula Translation", because it was designed to allow easy translation of math formulas into code.\\
+It is a compiled language, which means that the source code is compiled into a machine code before execution.[6]\\
+Also, it is case-insensitive, which means that the keywords can be written in any case, even though "FORTRAN" itself was written in uppercase letters, until Fortran 90.\\
+Fortran is a statically typed language, which means that the type of a variable is known at compile time.[5]\\
+
+\subsection{Features}
+
+\subsubsection{Comments}
+A comment in Fortran starts with an exclamation mark (!) and ends at the end of the line.\\
+Example:
+! This is a comment\\
+
+\subsubsection{Data Types}
+Fortrans data types can be divided into two categories: intrinsic and derived types. Where intrinsic types are provided by the compiler. Derived types are user-defined types.\\
+The following intrinsic types are available in Fortran:
+Intrinsic Types
+\begin{itemize}
+\item Integer
+\item Real
+\item Complex
+\item Logical
+\item Character
+\end{itemize}
+%Todo
+
+\subsubsection{Variables}
+Variables in Fortran are declared with the object type followed by "::" and the name of the variable.
+You can initialize a variable by assigning a value to it like this:\\
+integer :: year\\
+year = 2023\\
+
+\subsubsection{Operators}
+Fortran supports the following operators:\\
+\begin{itemize}
+\item Arithmetic Operators
+\item Relational Operators
+\item Logical Operators
+\item Bitwise Operators
+\end{itemize}
+
+\subsubsubsection{Arithmetic Operators}
+\begin{itemize}
+\item + Addition
+\item - Subtraction
+\item * Multiplication
+\item / Division
+\item ** Exponentiation
+\item // Concatenation [8]
+\end{itemize}
+
+\subsubsubsection{Relational Operators}
+\begin{itemize}
+\item .EQ. Equal to
+\item .NE. Not equal to
+\item .LT. Less than
+\item .LE. Less than or equal to
+\item .GT. Greater than
+\item .GE. Greater than or equal to
+\end{itemize}
+
+\subsubsubsection{Logical Operators}
+\begin{itemize}
+\item .not. Logical NOT
+\item .and. Logical AND
+\item .or. Logical OR
+\item .eqv. Logical equivalence
+\item .neqv. Logical non-equivalence
+\end{itemize}
+
+\subsubsubsection{Bitwise Operators} % needs verification
+\begin{itemize}
+\item .not. Bitwise NOT
+\item .and. Bitwise AND
+\item .or. Bitwise OR
+\item .eqv. Bitwise equivalence
+\item .neqv. Bitwise non-equivalence
+\end{itemize}
+
+\subsubsection{Control Structures}
+Control structures in Fortran are similar to other programming languages, such as C or Java. They make it possible to control the flow of a program.\\
+Supported control structures are if-then, if-then-else, do, do-while, do-until, select-case and cycle.\\
+%Todo examples
+
+
+\subsubsection{Functions and Subroutines}
+Functions and subroutines are used to divide a program into smaller parts, which makes it easier to read and maintain, hence the name "structured programming".
+Functions and subroutines are similar, but they have some differences, such as that functions can return a value, while subroutines cannot. This is because subroutines are used to perform a task, while functions are used to calculate a value.\\
+
 
 
 \section{References}
@@ -33,5 +121,9 @@ Fortran is still used today for programming scientific and engineering applicati
 [2] https://en.wikibooks.org/wiki/Shelf:Fortran_programming_language
 [3] https://gcn.com/cloud-infrastructure/2023/04/can-fortran-survive-another-15-years/385726/
 [4] https://programmingforresearchers.leeds.ac.uk/fortran/
+[5] https://www.baeldung.com/cs/statically-vs-dynamically-typed-languages
+[6] https://ourcodingclub.github.io/tutorials/fortran-intro/#:~:text=Fortran%20is%20a%20compiled%20language,run%20it%20on%20a%20computer.
+[7]
+[8] https://stackoverflow.com/questions/34622995/how-to-combine-two-strings-in-fortran
 
 \end{document}
