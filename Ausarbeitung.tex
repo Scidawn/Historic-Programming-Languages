@@ -34,37 +34,37 @@ Fortran is a statically typed language, which means that the type of a variable 
 
 \subsection{Features}
 
-\subsubsection{Comments}
+\subsubsection{Basic structure}
+A Fortran program consists of a main program and one or more subprograms. The main program is the starting point of the program and declared with the keyword "program", followed by the name of the program. In the end, the program is terminated with the keyword "end program".
 A comment in Fortran starts with an exclamation mark (!) and ends at the end of the line.\\
 Example:
+program helloworld\\
 ! This is a comment\\
+print *, "Hello World!"\\
+end program helloworld\\
 
 \subsubsection{Data Types}
-Fortrans data types can be divided into two categories: intrinsic and derived types. Where intrinsic types are provided by the compiler. Derived types are user-defined types.\\
-The following intrinsic types are available in Fortran:
-Intrinsic Types
-\begin{itemize}
-\item Integer
-\item Real
-\item Complex
-\item Logical
-\item Character
-\end{itemize}
-%Todo
+Fortrans data types can be divided into two categories: intrinsic and derived types. While intrinsic types are provided by the compiler. Derived types are user-defined.\\
+Fortrans intrinsic Types are Integer, Real, Complex, Logical and Character. The number of bytes used by these types can be specified with the kind keyword.\\
+Integer is used to store whole numbers, comparable to the int type in C. It can be declared with the integer keyword.\\
+Complex is used to store complex numbers, which consist of a real and an imaginary part. It can be declared with the complex keyword. The real and imaginary part can be accessed with the real and aimag functions.\\ %Todo verify this
+Real is used to store floating point numbers, comparable to the float type in C. It can be declared with the real keyword.\\
+Logical is used to store boolean values, which can be either true or false. It can be declared with the logical keyword. and initialized with either .true. or .false.\\
+Character is used to store a single charactor or an entire String. It can be declared with the character keyword, while also specifying the length of the string.
 
 \subsubsection{Variables}
-Variables in Fortran are declared with the object type followed by "::" and the name of the variable.
+similarly to Java, variables in Fortran are declared with the object type followed by "::" and the name of the variable.
 You can initialize a variable by assigning a value to it like this:\\
 integer :: year\\
 year = 2023\\
+Variables can also be initialized when they are declared like this:\"integer :: year = 2023\"\\
+Constants are declared with the parameter keyword. Like this:\\
+parameter (pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286)\\%Todo verify this
+Or like this:\\
+real, parameter :: pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286\\
 
 \subsubsection{Operators}
-Fortran supports the following operators:\\
-\begin{itemize}
-\item Arithmetic Operators
-\item Relational Operators
-\item Logical Operators
-\end{itemize}
+Fortran supports Arithmetic, Relational and Logical Operators.\\
 
 Arithmetic Operators
 \begin{itemize}
@@ -98,8 +98,8 @@ Logical Operators
 \subsubsection{Control Structures}
 Control structures in Fortran are similar to other programming languages, such as C or Java. They make it possible to control the flow of a program.\\
 Supported control structures are if-then, if-then-else, do, do-while, do-until, select-case and cycle.\\
-%Todo examples
-
+The if-then control structure is used to execute a block of code if a condition is true. The if-then-else control structure is used to execute a block of code if a condition is true and another block of code if the condition is false.
+%Todo rephrase and compare to Java (?)
 
 \subsubsection{Functions and Subroutines}
 Functions and subroutines are used to divide a program into smaller parts, which makes it easier to read and maintain, hence the name "structured programming" as one of Fortrans paradigms.\\
