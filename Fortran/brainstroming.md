@@ -1,6 +1,10 @@
 # Fortran
 
 **(https://www.youtube.com/watch?v=NMWzgy8FsKs)[https://www.youtube.com/watch?v=NMWzgy8FsKs]**
+https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap03/else-if.html
+https://web.stanford.edu/class/me200c/tutorial_77/05_variables.html
+https://www.tutorialspoint.com/fortran/fortran_constants.htm
+https://www.mrao.cam.ac.uk/~pa/f90Notes/HTMLNotesnode40.html
 
 ## Table of Contents
 
