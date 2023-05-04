@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{scrartcl}
+\documentclass[11pt,a4paper]{scrartcl}
 
 \usepackage{amsmath,amssymb}
 \usepackage[T1]{fontenc}    
@@ -10,19 +10,25 @@
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{lmodern}
 \usepackage{enumitem}
+\usepackage{times}
+\usepackage{setspace}
+\spacing{1.3}
 \setlist{nosep} % or \setlist{noitemsep}
 
 %Gegebenenfalls koennen Titel, Author und Datum festgelegt werden
 \title{Historic Programming Languages}
 \author{Sandro Lobbene\\Toygun Ejder\\Tufan Alacapunar}
 \date{\today}
+%Section size 15pt
 
 \begin{document}
+\begin{center}
 \maketitle
 
 \section{Motivation}
 
 \section{Fortran}
+\begin{spacing}{1.3}
 Fortran is a procedural programming language, which influenced many other programming languages. It was developed by IBM in the 1950s for scientific and engineering applications.[1] Fortran is a general-purpose, imperative programming language and plays a big role in numeric computation as well as scientific computing.\\
 It is known for high-performance computing and is used for programs that benchmark and rank the world's fastest supercomputers.[2][4]\\
 Fortran consists of numerous versions, which have added support for structured programming (FORTRAN 77), array programming, modular programming and generic programming (Fortran 90), high performance (Fortran 95), object-oriented programming since 2003 and concurrent programming in 2008.[1] Influenced languages by Fortran include BASIC, PL/I, and C, as well as Algol and Java.\\
@@ -31,7 +37,7 @@ FORTRAN is short for "Formula Translation", because it was designed to allow eas
 It is a compiled language, which means that the source code is compiled into a machine code before execution.[6]\\
 Also, it is case-insensitive, which means that the keywords can be written in any case, even though "FORTRAN" itself was written in uppercase letters, until Fortran 90.\\
 Fortran is a statically typed language, which means that the type of a variable is known at compile time.[5]\\
-
+\end{spacing}
 \subsection{Features}
 
 \subsubsection{Basic structure}
@@ -227,4 +233,5 @@ For beginners, it is recommended to start with a more modern programming languag
 %[9] https://docs.oracle.com/cd/E19957-01/805-4940/z400091044d0/index.html
 %[10] https://www.cism.ucl.ac.be/Services/Formations/fortran/2016/fortranCISM.pdf
 
+\end{center}
 \end{document}
