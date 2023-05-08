@@ -15,7 +15,8 @@ programming languages:
 ## Todos
 
 - [X] concept
-- [ ] elaboration
+- [X] elaboration
+- [ ] correct elaboration
 - [ ] powerpoint
 - [ ] test lecture
 - [ ] overhaul
@@ -47,6 +48,28 @@ Sollte die Ausarbeitung mehr als 5 Rechtschreib- oder Grammatikfehler auf einer 
 Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werden. Wir empfehlen allerdings LaTeX
 
 ### 11.05.2023
+
+- [ ] Correct quote 5 to typing
+- [ ] Correct quote 5 and 6
+- [ ] Correct quote 11
+- [X] Put dot behind references.
+- [ ] Add text to "Features"
+- [X] Clarify hello world program
+- [X] remove "It can be declared" as repetition
+- [ ] Add statically Typing as it is important
+- [X] shorten usual types
+- [X] remove "like this" as it is not needed
+- [X] remove Parallel programming section
+- [X] explain Operators chart with example
+- [ ] emphasize the difference between if and if then
+- [ ] add examples in control structure and Functions
+- [ ] clarify dimensions in arrays
+- [ ] running example
+- [ ] input output char as int entered
+- [ ] input output running example
+- [ ] highlight program code
+- [ ] refer to other languages more often
+- [ ] explain differences and how it influenced other languages
 
 upload powerpoint and test lecture appointment
 
