@@ -49,23 +49,22 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
 
 ### 11.05.2023
 
-- [ ] Correct quote 5 to typing
+- [X] Correct quote 5 to typing
 - [ ] Correct quote 5 and 6
 - [ ] Correct quote 11
 - [X] Put dot behind references.
 - [ ] Add text to "Features"
 - [X] Clarify hello world program
 - [X] remove "It can be declared" as repetition
-- [ ] Add statically Typing as it is important
+- [X] Add statically Typing as it is important
 - [X] shorten usual types
 - [X] remove "like this" as it is not needed
 - [X] remove Parallel programming section
 - [X] explain Operators chart with example
-- [ ] emphasize the difference between if and if then
+- [X] emphasize the difference between if and if then
 - [ ] add examples in control structure and Functions
-- [ ] clarify dimensions in arrays
+- [X] clarify dimensions in arrays
 - [ ] running example
-- [ ] input output char as int entered
 - [ ] input output running example
 - [ ] highlight program code
 - [ ] refer to other languages more often
@@ -80,3 +79,6 @@ final deadline of possible changes
 ### 25.05.2023
 
 final presentation
+
+---
+FORTRAN features subroutines, functions, arrays, loops, conditional statements, input and output, user-defined types and operators, and modules. It also supports recursion, pointers, and object-oriented programming.

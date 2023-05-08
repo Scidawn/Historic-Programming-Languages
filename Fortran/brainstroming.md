@@ -90,4 +90,6 @@ The user sends the area that the paint can cover and the radius of the circle. T
 - Addition of nubers
 - something with arrays
 - something with loops
-- 
+- something with if statements
+- something with functions
+- something with modules
