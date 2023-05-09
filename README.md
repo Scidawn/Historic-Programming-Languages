@@ -70,7 +70,18 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
 - [ ] refer to other languages more often
 - [ ] explain differences and how it influenced other languages
 
+### Powerpoint
+
+- [ ] use attention catcher
+- [ ] use pictures
+- [ ] paste programming language history
+
 upload powerpoint and test lecture appointment
+
+### questions for powerpoint
+
+* Java show main method etc.
+* 
 
 ### 22.05.2023
 
