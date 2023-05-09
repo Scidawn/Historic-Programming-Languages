@@ -49,11 +49,11 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
 
 ### 11.05.2023
 
-- [X] Correct quote 5 to typing
 - [ ] Correct quote 5 and 6
 - [ ] Correct quote 11
-- [X] Put dot behind references.
 - [ ] Add text to "Features"
+- [X] Correct quote 5 to typing
+- [X] Put dot behind references.
 - [X] Clarify hello world program
 - [X] remove "It can be declared" as repetition
 - [X] Add statically Typing as it is important
@@ -62,8 +62,8 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
 - [X] remove Parallel programming section
 - [X] explain Operators chart with example
 - [X] emphasize the difference between if and if then
-- [ ] add examples in control structure and Functions
 - [X] clarify dimensions in arrays
+- [ ] add examples in control structure and Functions
 - [ ] running example
 - [ ] input output running example
 - [ ] highlight program code
