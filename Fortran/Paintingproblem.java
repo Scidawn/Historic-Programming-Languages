@@ -10,9 +10,9 @@ public class Paintingproblem{
         double paint = scanner.nextDouble();
         double area = Math.PI * Math.pow(radius, 2);
         if (paint >= area) {
-            System.out.println("The paint is enough to paint the circle");
+            System.out.println("The area can be painted");
         } else {
-            System.out.println("The paint is not enough to paint the circle");
+            System.out.println("The area can not be painted");
         }
         scanner.close();
     }
@@ -20,5 +20,4 @@ public class Paintingproblem{
     public static void main(String[] args) {
         new Paintingproblem();
     }
-
 }
