@@ -1,23 +1,15 @@
-!program helloworld
-!    print *, "Hello World!"
-!end program helloworld
-
-
-program greetings !gfortran playground.f90 -o playground.exe
-    implicit none
-    print *, "Hello World!"
-
-    
-    
-    !CHARACTER(LEN = 10) :: name = "John Doe"
-    !CHARACTER(LEN = 20) :: double_name 
-    !CHARACTER :: test = "Test"
-    
-    !double_name = name // name
-
-    print *,test
-    !print *,double_name
-    print *,"Enter your name!"
-    read *,name
-    write(*,*) name
-end program greetings
+!gfortran playground.f90 -o playground.exe
+program calling_func
+    real :: a
+    a = circle_area(2.0)
+    Print *, a
+   
+end program calling_func
+ 
+function circle_area (r) 
+    implicit none 
+   real :: circle_area
+   real :: r
+   
+   circle_area = r**2  
+end function circle_area

@@ -84,8 +84,10 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
   - [X] variablen + input
   - [X] data types
   - [X] control structure
-  - [ ] array
-  - [ ] functions
+  - [X] array
+  - [X] functions
+  - [ ] kind parameter in variables
+  - [ ] Gute Sachen schlechte Sachen
 - [ ] kurze Zusammenfassung (ähnlich der Zusammenfassung der Ausarbeitung)
 - [ ] (gemeinsame Einleitung und Schluss)
 
