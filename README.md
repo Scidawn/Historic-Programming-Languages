@@ -76,6 +76,19 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
 - [ ] use pictures
 - [ ] paste programming language history
 
+- [X] Entstehung (ursprünglicher Entwicklungsgrund)
+- [X] Innovationen der Sprache
+- [X] Anwendungsbereiche
+- [ ] Syntax (ständiger Vergleich der Entwicklung)
+  - [X] grobe Struktur
+  - [X] variablen + input
+  - [X] data types
+  - [X] control structure
+  - [ ] array
+  - [ ] functions
+- [ ] kurze Zusammenfassung (ähnlich der Zusammenfassung der Ausarbeitung)
+- [ ] (gemeinsame Einleitung und Schluss)
+
 upload powerpoint and test lecture appointment
 
 ### questions for powerpoint
