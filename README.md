@@ -87,6 +87,8 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
   - [X] array
   - [X] functions
   - [ ] kind parameter in variables
+  - [ ] Output für das Running Example
+  - [ ] Output in eckigen Klammern
   - [ ] Gute Sachen schlechte Sachen
 - [ ] kurze Zusammenfassung (ähnlich der Zusammenfassung der Ausarbeitung)
 - [ ] (gemeinsame Einleitung und Schluss)
