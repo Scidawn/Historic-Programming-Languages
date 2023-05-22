@@ -85,6 +85,35 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
 - [ ] !!! reduce duration !!!
 - [X] !!! Goods and Bads !!!
 
+Powerpoint Feedback:
+- [ ] kein check this out
+- [ ] Titel gleich halten
+- [ ] Stichpunkte verringern
+- [ ] erste Folie löschen aber erwähnen
+- [ ] Variable Box kürzer
+- [ ] len Folie löschen
+- [ ] Operators auf zwei Tabellen aufteilen
+- [ ] Sprache immer blau
+- [ ] großes pi rauslöschen
+- [ ] Box in der das Paintingproblem steht (input area and paint; output can we color circle)
+- [ ] Java überarbeiten
+- [ ] Auf Indentation achten
+- [ ] Goods and Bads einheitlich
+- [ ] Bold und nicht bold einheitlich machen
+- [ ] Seitenfolien
+- [ ] letzte Folie erwähnen, was die wichtigen Punkte sind (nicht erklären)
+- [ ] Versuchen mit Elan rüberzubringen!
+
+### Anmerkungen
+
+- Sprache nicht so wichtig
+- im Vortrag nicht nach Worten suchen
+- Mehr ins Publikum schauen
+
+### Quizfrage
+- [ ] erste funktionale
+- [ ] erste jemals ausgeführter Programmcode
+
 - [X] Entstehung (ursprünglicher Entwicklungsgrund)
 - [X] Innovationen der Sprache
 - [X] Anwendungsbereiche
