@@ -75,6 +75,15 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
 - [ ] use attention catcher
 - [ ] use pictures
 - [ ] paste programming language history
+- [X] !!! less bullet points !!!
+- [X] !!! reduce unnecessary text !!!
+- [X] !!! Codeexample after introduction !!!
+- [X] !!! reduce pi to first 9 inclusive!!!
+- [X] !!! make code font bigger !!!
+- [X] !!! programming language highlight with color !!!
+- [X] !!! Fortran with ALGOL graphics !!!
+- [ ] !!! reduce duration !!!
+- [X] !!! Goods and Bads !!!
 
 - [X] Entstehung (ursprünglicher Entwicklungsgrund)
 - [X] Innovationen der Sprache
@@ -87,7 +96,7 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
   - [X] array
   - [X] functions
   - [ ] kind parameter in variables
-  - [ ] Output für das Running Example
+  - [X] Output für das Running Example
   - [ ] Output in eckigen Klammern
   - [ ] Gute Sachen schlechte Sachen
 - [ ] kurze Zusammenfassung (ähnlich der Zusammenfassung der Ausarbeitung)
