@@ -88,7 +88,7 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
 - [X] Entstehung (ursprünglicher Entwicklungsgrund)
 - [X] Innovationen der Sprache
 - [X] Anwendungsbereiche
-- [ ] Syntax (ständiger Vergleich der Entwicklung)
+- [X] Syntax (ständiger Vergleich der Entwicklung)
   - [X] grobe Struktur
   - [X] variablen + input
   - [X] data types
@@ -97,10 +97,10 @@ Die Ausarbeitung kann mit einem beliebigen Textverarbeitungssystem erstellt werd
   - [X] functions
   - [ ] kind parameter in variables
   - [X] Output für das Running Example
-  - [ ] Output in eckigen Klammern
-  - [ ] Gute Sachen schlechte Sachen
-- [ ] kurze Zusammenfassung (ähnlich der Zusammenfassung der Ausarbeitung)
-- [ ] (gemeinsame Einleitung und Schluss)
+  - [X] Output in eckigen Klammern
+  - [X] Gute Sachen schlechte Sachen
+- [X] kurze Zusammenfassung (ähnlich der Zusammenfassung der Ausarbeitung)
+- [X] (gemeinsame Einleitung und Schluss)
 
 upload powerpoint and test lecture appointment
 
